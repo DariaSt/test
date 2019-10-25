@@ -1,0 +1,65 @@
+.header{
+  margin-bottom: 30px;
+
+  &__contacts{
+    border-bottom: 1px solid #D3D3D3;
+    padding: 12px 0px;
+  }
+
+  &__base{
+    padding: 24px 0;
+
+    &-wrap{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 100%;
+    }
+  }
+
+  &__logo{
+    display: flex;
+    width: 295px;
+  
+
+    &-headline{
+      font-family: 'Secular One', sans-serif;
+      font-size: 34px;
+      margin-right: 7px;
+    }
+  }
+
+  &__phone{
+    display: flex;
+
+    &-img{
+      width: 18px;
+      height: 28px;
+      margin-right: 7px;
+    }
+
+    &-text{
+      display: flex;
+      flex-direction: column;
+    }
+
+    &-number{
+      text-decoration: none;
+      text-transform: uppercase;
+      font-weight: bold;
+      font-size: 16px;
+      color: #3b3b3b;
+    }
+
+    &-link{
+      font-size: 11px;
+      text-decoration: none;
+    }
+  }
+
+  &__basket{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+  }
+}

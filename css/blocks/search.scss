@@ -1,0 +1,30 @@
+.search{
+  &__wrap{
+    width: 430px; /* Ширина поля с кнопкой */
+    border: 1px solid #D6D6D6; /* Параметры рамки */
+    border-radius: 53px;
+    
+    input::-webkit-search-decoration,
+    input::-webkit-search-cancel-button,
+    input::-webkit-search-results-button,
+    input::-webkit-search-results-decoration { display: none; } /*Убрать крестик (очистка поля)*/
+
+    input[type="search"] {
+      border: none; /* Убираем рамку */
+      outline: none; /* Убираем свечение в Chrome и Safari */
+      -webkit-appearance: none; /* Убираем рамку в Chrome и Safari */
+      width: 100%; /* Ширина поля */
+     }
+  }
+
+  &__input{
+    background: url('../../img/search.png') no-repeat 98% center;
+    padding: 11px 12% 11px 11px;
+    background-size: 20px 20px;
+  }
+
+  &__result{
+    position: absolute;
+    opacity: 0;
+  }
+}

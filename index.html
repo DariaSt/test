@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+  <div class="wrapper">
+    <div class="wrapper-content">
+      <header class="header">
+        <div class="header__contacts">
+          <div class="container">
+            <div class="contacts">
+              <div class="contacts__location">
+                <div class="location__city">
+                  <img src="./img/location.png" alt="локация" class="location__img">
+                  <span>Ваш город: </span>
+                </div>
+                <a href="#" class="location__myCity">
+                  Москва
+                  <img src="./img/arrow.png" alt="arrow" class="location__arrow">
+                </a>
+              </div>
+              <div class="contacts__address">
+                <p class="address__shop"><span>Адрес магазина:</span> г. Москва, Варшавское ш, д.68 к.3</p>
+                <p class="address__shedule"><span>График работы:</span> с 9:00 до 21:00 без выходных</p>
+              </div>
+              <div class="contacts__authorization">
+                <a href="#" class="authorization__link">
+                  <img src="./img/login.png" alt="login" class="authorization__link-img">
+                  <span class="base-link">Личный кабинет</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="header__base">
+          <div class="container">
+            <div class="header__base-wrap">
+              <div class="header__logo">
+                <div class="header__logo-headline">
+                  Commerce
+                </div>
+                простой слоган состоящий из шести слов
+              </div>
+              <div class="header__phone">
+                <img src="./img/phone.png" alt="phone" class="header__phone-img">
+                <div class="header__phone-text">
+                  <a href="tel:+74956771779" class="header__phone-number">
+                    +7 (495) 677-17-79
+                  </a>
+                  <a href="#" class="header__phone-link">
+                    <span class="base-link">Заказать звонок</span>
+                  </a>
+                </div>
+              </div>
+              <form class="header__search">
+                <div class="search__wrap">
+                  <input type="search" name="search" id="search" placeholder="Поиск по сайту" class="search__input el__input">
+                </div>
+                <div class="search__result">
+                  <ul class="search__list">
+                    <li class="search__item">
+                      <img src="./img/searchResult.png" alt="иконка товара" class="search__ico">
+                      <div class="search__result">
+                        <span class="search__title">Насадка для спагетти и тонкой лапши MMC-SPC</span>
+                        <div class="search__price">
+                          <span>228 990</span>
+                          <span>₽</span>
+                        </div>
+                        <div class="search__prevPrice">
+                          <span>35 973</span>
+                          <span>₽</span>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="search__item">
+                      <img src="./img/searchResult.png" alt="иконка товара" class="search__ico">
+                      <div class="search__result">
+                        <span class="search__title">Насадка для спагетти и тонкой лапши MMC-SPC</span>
+                        <div class="search__price">
+                          <span>228 990</span>
+                          <span>₽</span>
+                        </div>
+                        <div class="search__prevPrice">
+                          <span>35 973</span>
+                          <span>₽</span>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="search__item">
+                      <img src="./img/searchResult.png" alt="иконка товара" class="search__ico">
+                      <div class="search__result">
+                        <span class="search__title">Насадка для спагетти и тонкой лапши MMC-SPC</span>
+                        <div class="search__price">
+                          <span>228 990</span>
+                          <span>₽</span>
+                        </div>
+                        <div class="search__prevPrice">
+                          <span>35 973</span>
+                          <span>₽</span>
+                        </div>
+                      </div>
+                      </li>
+                      <li class="search__item">
+                        <img src="./img/searchResult.png" alt="иконка товара" class="search__ico">
+                        <div class="search__result">
+                          <span class="search__title">Насадка для спагетти и тонкой лапши MMC-SPC</span>
+                          <div class="search__price">
+                            <span>228 990</span>
+                            <span>₽</span>
+                          </div>
+                          <div class="search__prevPrice">
+                            <span>35 973</span>
+                            <span>₽</span>
+                          </div>
+                        </div>
+                      </li>
+                  </ul>
+                  <button type="button" class="btn search-result__btn">Показать все результаты</button>
+                </div>
+              </form>
+              <div class="header__basket">
+                <img src="./img/shopping.png" alt="shopping basket" class="basket-img">
+                <div class="basket__count">
+                  <span>10</span>
+                </div>
+                <div class="basket__price">
+                  <span class="basket__sum">10 000</span>
+                  <span>₽</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <nav class="sidebar">
+          <div class="container">
+            <ul class="nav">
+              <li class="nav__item nav__item--active parentTopMenu">
+                <a href="#" class="nav__link">
+                  <div class="hamburger">
+                    <div class="hamburger__content">
+                      <div class="hamburger__line"></div>
+                    </div>
+                  </div>
+                  <span class="nav__title">
+                    Каталог товаров
+                  </span>
+                </a>
+                <ul class="nav__topmenu">
+                  <li class="topmenu__item">
+                    <a href="#" class="topmenu__link">
+                      Колеса, колесные опоры
+                    </a>
+                  </li>
+                  <li class="topmenu__item">
+                    <a href="#" class="topmenu__link">
+                      Складская техника
+                    </a>
+                  </li>
+                  <li class="topmenu__item topmenu__item--active parentsubmenu">
+                    <a href="#" class="topmenu__link">
+                      Металлические поддоны
+                    </a>
+                  </li>
+                  <ul class="nav__submenu">
+                    <div class="submenu__wrap">
+                      <div class="submenu__group">
+                        <li class="submenu__item">
+                          <a href="#" class="submenu__link">Kолеса, Колесные опоры</a>
+                        </li>
+                        <li class="submenu__item">
+                          <a href="#" class="submenu__link">Складская техника</a>
+                        </li>
+                        <li class="submenu__item">
+                          <a href="#" class="submenu__link">Металлические поддоны</a>
+                        </li>
+                        <li class="submenu__item">
+                          <a href="#" class="submenu__link">Ограждения для поддонов</a>
+                        </li>
+                        <li class="submenu__item">
+                          <a href="#" class="submenu__link">Стеллажи и тележки для воды</a>
+                        </li>
+                        <li class="submenu__item">
+                          <a href="#" class="submenu__link">Сетчатые контейнеры шкафы</a>
+                        </li>
+                        <li class="submenu__item">
+                          <a href="#" class="submenu__link">Верстаки</a>
+                        </li>
+                      </div>
+                      <div class="submenu__group">
+                        <li class="submenu__item">
+                          <a href="#" class="submenu__link">Kолеса, Колесные опоры</a>
+                        </li>
+                        <li class="submenu__item">
+                          <a href="#" class="submenu__link">Складская техника</a>
+                        </li>
+                        <li class="submenu__item submenu__item--active">
+                          <a href="#" class="submenu__link">Металлические поддоны</a>
+                        </li>
+                        <li class="submenu__item">
+                          <a href="#" class="submenu__link">Ограждения для поддонов</a>
+                        </li>
+                        <li class="submenu__item">
+                          <a href="#" class="submenu__link">Стеллажи и тележки для воды</a>
+                        </li>
+                        <li class="submenu__item">
+                          <a href="#" class="submenu__link">Сетчатые контейнеры шкафы</a>
+                        </li>
+                        <li class="submenu__item">
+                          <a href="#" class="submenu__link">Верстаки</a>
+                        </li>
+                        <li class="submenu__item">
+                          <a href="#" class="submenu__link">
+                            Металлические стеллажи
+                        </a>
+                        </li>
+                        <li class="submenu__item">
+                          <a href="#" class="submenu__link">
+                            Металл шкафы для документов
+                          </a>
+                        </li>
+                      </div>
+                    </div>
+                  </ul>
+                  <li class="topmenu__item">
+                    <a href="#" class="topmenu__link">
+                      Ограждения для поддонов
+                    </a>
+                  </li>
+                  <li class="topmenu__item">
+                    <a href="#" class="topmenu__link">
+                      Стеллажи и тележки для воды
+                    </a>
+                  </li>
+                  <li class="topmenu__item">
+                    <a href="#" class="topmenu__link">
+                      Сетчатые контейнеры шкафы
+                    </a>
+                  </li>
+                  <li class="topmenu__item">
+                    <a href="#" class="topmenu__link">
+                      Верстаки
+                    </a>
+                  </li>
+                  <li class="topmenu__item">
+                    <a href="#" class="topmenu__link">
+                      Металлические стеллажи
+                    </a>
+                  </li>
+                  <li class="topmenu__item">
+                    <a href="#" class="topmenu__link">
+                      Металл шкафы для документов
+                    </a>
+                  </li>
+                  <li class="topmenu__item">
+                    <a href="#" class="topmenu__link">
+                      Металл шкафы для одежды
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link">
+                  <span class="nav__title">
+                    О компании
+                  </span>
+                </a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link">
+                  <span class="nav__title">
+                    Новости
+                  </span>
+                </a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link">
+                  <span class="nav__title">
+                    Сотрудничество
+                  </span>
+                </a>
+              </li>
+              <li class="nav__item parentMenu">
+                <a href="#" class="nav__link">
+                  <span class="nav__title">
+                    Доставка и оплата
+                  </span>
+                </a>
+                <ul class="nav__menu">
+                  <li class="menu__item">
+                    <a href="#" class="menu__link">Доставка</a>
+                  </li>
+                  <li class="menu__item menu__item--active">
+                    <a href="#" class="menu__link">Самовывоз</a>
+                  </li>
+                  <li class="menu__item">
+                    <a href="#" class="menu__link">Условия продажи</a>
+                  </li>
+                  <li class="menu__item">
+                    <a href="#" class="menu__link">Оплата заказа</a>
+                  </li>
+                  <li class="menu__item">
+                    <a href="#" class="menu__link">Корпоративным клиентам</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link">
+                  <span class="nav__title">
+                    Обзоры
+                  </span>
+                </a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link">
+                  <span class="nav__title">
+                    Контакты
+                  </span>
+                </a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link">
+                  <span class="nav__title">
+                    Пункт меню
+                  </span>
+                </a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link">
+                  <span class="nav__title">
+                    ...
+                  </span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <div class="page-content">
+        <div class="container">
+          <div class="form headline-auth"> <!--headline-reg--> 
+            <div class="form-wrap">
+              <div class="form__header">
+                <a href="#" class="close"></a>
+                <div class="headline-wrap">
+                  <button type="button" class="auth headline headline--active">Авторизация</button>
+                  <button type="button" class="reg headline">Регистрация</button>
+                </div>
+              </div>
+              <form action="#" class="form-tag">
+                  <div class="form__item">
+                    <label for="mail" class="form__label">
+                      <div class="form__text">
+                        E-Mail адрес <span>*</span>
+                      </div>
+                    </label>
+                    <input
+                        type="text"
+                        id="mail"
+                        class="form__input"
+                        placeholder="example"
+                      />
+                  </div>
+                  <div class="form__item">
+                    <label for="pass" class="form__label">
+                      <div class="form__text">
+                        Пароль <span>*</span>
+                      </div>
+                    </label>
+                      <input
+                        type="password"
+                        id="pass"
+                        class="pass form__input"
+                      />
+                    <!-- Меняется -->
+                    <div class="checkbox__block">
+                      <input type="checkbox" id="remember" name="remember" checked class="form__checkbox">
+                      <label for="remember">Запомнить меня</label>
+                    </div>
+                  </div>
+                  <div class="form__item form__item-repeat">
+                    <label for="passRepeat" class="form__label">
+                      <div class="form__text">
+                        Введите пароль еще раз <span>*</span>
+                      </div>
+                    </label>
+                      <input
+                        type="password"
+                        id="passRepeat"
+                        class="passRepeat form__input"
+                      />
+                  </div>
+                  <!-- Меняется -->
+                  <p class="form__item p__auth">
+                    Вход в личный кабинет на сайте подразумевает обязательное согласие с <a href="#">политикой конфиденциальности</a>
+                  </p>
+                  <!-- Меняется -->
+                  <div class="form__item form__check">
+                    <input type="checkbox" id="agree" name="agree" checked class="form__checkbox">
+                    <label for="agree" class="label-check">Я ознакомился с <a href="#">соглашением сервиса</a> и согласен с условиями пре­до­ста­вле­ния услуг</label>
+                  </div>
+                  <!-- Меняется -->
+                  <button type="button" class="form__btn">
+                    <span>Зарегистрироваться</span>
+                  </button>                  
+              </form>
+            </div>
+              <!-- Меняется -->
+            <div class="social">
+              <div class="social-wrap">
+                <p class="social__text">Вход через социальные сети:</p>
+                <ul class="social__list">
+                  <li class="social__item">
+                    <a href="#" class="social__link">
+                      <img src="./img/gmail.png" alt="gmail" class="social__ico">
+                      Google
+                    </a>
+                  </li>
+                  <li class="social__item">
+                    <a href="#" class="social__link">
+                      <img src="./img/vk.png" alt="vk" class="social__ico">
+                      Вконтакте
+                    </a>
+                  </li>
+                  <li class="social__item">
+                    <a href="#" class="social__link">
+                      <img src="./img/fb.png" alt="fb" class="social__ico">
+                      Facebook
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="/js/headline.js"></script>
+</body>
+</html>

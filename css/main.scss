@@ -1,0 +1,19 @@
+$notebook: 1024px;
+$tablets: 768px;
+$phones: 480px;
+
+$blue-text: #337FD2;
+
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Caption:400,700|Secular+One&display=swap&subset=cyrillic');
+
+@import './layout/media.scss';
+@import './layout/normalize.scss';
+@import './layout/base.scss';
+
+@import './blocks/header.scss';
+@import './blocks/contacts.scss';
+@import './blocks/search.scss';
+@import './blocks/basket.scss';
+@import './blocks/sidebar.scss';
+@import './blocks/form.scss';
+@import './blocks/social.scss';
